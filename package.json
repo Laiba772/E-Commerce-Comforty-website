@@ -1,0 +1,51 @@
+{
+  "name": "hackatone3-comforty-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "migrate": "node scripts/migrate.mjs"
+  },
+  "dependencies": {
+    "@clerk/clerk-react": "^5.22.3",
+    "@clerk/nextjs": "^6.10.1",
+    "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@sanity/client": "^6.25.0",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.71.2",
+    "@shadcn/ui": "^0.0.4",
+    "axios": "^1.7.9",
+    "class-variance-authority": "^0.7.1",
+    "cn": "^0.1.1",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.2.2",
+    "next-pwa": "^5.6.0",
+    "next-sanity": "^9.8.42",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.4.0",
+    "react-is": "^19.0.0",
+    "sanity": "^3.71.2",
+    "shipengine": "^1.0.7",
+    "styled-components": "^6.1.14",
+    "sweetalert2": "^11.15.10"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.58.1",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/next-pwa": "^5.6.9",
+    "@types/node": "^20",
+    "@types/react": "18.3.18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.7.3"
+  }
+}
